@@ -1,6 +1,6 @@
-## Ejemplos ciclo de vida de Spring
+# Ejemplos ciclo de vida de Spring
 
-# Aware interfaces
+## Aware interfaces
 - ApplicationContextAware
 - BeanFactoryAwareExample
 - BeanNameAwareExample
@@ -8,19 +8,19 @@
 - MessageSourceAwareExample
 - ResourceLoaderAwareExample
 
-# @PostConstruct / @PreDestroy callbacks
+## @PostConstruct / @PreDestroy callbacks
 
-# InitializingBean / DisposableBean
+## InitializingBean / DisposableBean
 
-# Inicialización (Eager y Lazy)
+## Inicialización (Eager y Lazy)
 
-# Definición de callbacks con beans declarados de forma explícita
+## Definición de callbacks con beans declarados de forma explícita
 
-# BeanPostProcessor
+## BeanPostProcessor
 
-# BeanFactoryPostProcessor
+## BeanFactoryPostProcessor
 
-# Orden de ejecución
+## Orden de ejecución
 - AwareInterfaces
 - postProcessBeforeInitialization de los beans que implementen la interface BeanPostProcessor
 - Métodos anotados con @PostConstruct
