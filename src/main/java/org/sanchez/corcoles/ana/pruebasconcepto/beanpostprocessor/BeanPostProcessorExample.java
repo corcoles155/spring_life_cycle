@@ -13,7 +13,7 @@ public class BeanPostProcessorExample implements BeanPostProcessor {
     //Se ejecutará antes de que inicialice cada bean
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
-        log.info("***** Before initialization {} *****", beanName);
+        log.info("----- Before initialization {}", beanName);
         return bean;
     }
 
@@ -21,7 +21,7 @@ public class BeanPostProcessorExample implements BeanPostProcessor {
     //Se ejecutará después de que inicialice cada bean
     @Override
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
-        log.info("***** After initialization {} *****", beanName);
+        log.info("----- After initialization {}", beanName);
         return bean;
     }
 }

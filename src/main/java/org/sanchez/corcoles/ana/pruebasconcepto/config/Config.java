@@ -1,8 +1,8 @@
 package org.sanchez.corcoles.ana.pruebasconcepto.config;
 
-import org.sanchez.corcoles.ana.pruebasconcepto.animal.Animal;
-import org.sanchez.corcoles.ana.pruebasconcepto.animal.Cat;
-import org.sanchez.corcoles.ana.pruebasconcepto.animal.Dog;
+import org.sanchez.corcoles.ana.pruebasconcepto.model.Animal;
+import org.sanchez.corcoles.ana.pruebasconcepto.model.Cat;
+import org.sanchez.corcoles.ana.pruebasconcepto.model.Dog;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
